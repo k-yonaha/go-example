@@ -1,0 +1,10 @@
+# Go binary
+/src/tmp/
+
+# Go modules
+/src/go.mod
+/src/go.sum
+
+# Docker related
+.docker/
+*.log
