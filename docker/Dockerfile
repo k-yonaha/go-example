@@ -9,7 +9,7 @@ WORKDIR /app
 COPY ./src .
 
 # go.modとgo.sumの生成
-RUN go mod init github.com/k-yonaha/go-example
+RUN go mod init go-example
 
 # 整頓
 RUN go mod tidy
